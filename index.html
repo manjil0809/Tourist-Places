@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nepal: Top 5 Tourist Destinations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <h1>Explore Nepal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#places">Tourist Attractions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <h2>Discover Nepal’s Most Iconic Tourist Destinations</h2>
+            <p>Explore the rich culture, mesmerizing landscapes and spiritual history of Nepal.</p>
+            <button onclick="window.location.href='#places'">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Top 5 Tourist Places Section -->
+    <section id="places">
+        <h2>Top 5 Tourist Places in Nepal</h2>
+        <div class="places-gallery">
+            <div class="place-card" id="everest">
+                <img src="everest.jpg" alt="Mount Everest" class="place-image">
+                <h3>Mount Everest</h3>
+                
+                <a href="everest.html" class="learn-more-button" target="_blank">Learn More</a>
+            </div>
+            <div class="place-card" id="patan">
+                <img src="patan.jpg" alt="Patan Durbar Square" class="place-image">
+                <h3>Patan Durbar Square</h3>
+                
+                <a href="patan.html" class="learn-more-button" target="_blank">Learn More</a>
+            </div>
+            <div class="place-card" id="pokhara">
+                <img src="pokhara.gif" alt="Pokhara" class="place-image">
+                <h3>Pokhara</h3>
+                
+                <a href="pokhara.html" class="learn-more-button" target="_blank">Learn More</a>
+            </div>
+            <div class="place-card" id="lumbini">
+                <img src="lumbini.jpg" alt="Lumbini" class="place-image">
+                <h3>Lumbini</h3>
+
+                <a href="lumbini.html" class="learn-more-button" target="_blank">Learn More</a>
+            </div>
+            <div class="place-card" id="chitwan">
+                <img src="chitwan.jpg" alt="Chitwan National Park" class="place-image">
+                <h3>Chitwan National Park</h3>
+         
+                <a href="chitwan.html" class="learn-more-button" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Write your message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Manjil Aryal | All Rights Reserved © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
